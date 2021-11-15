@@ -51,21 +51,55 @@
 }
 
 .color-1 {
-
+  background-color: blue
 }
 
 .color-2 {
-
+  background-color: orange
 }
 
 .color-3 {
-
+  background-color: green
 }
 
 .color-4 {
-
+  background-color: yellow
 }
 
 .color-5 {
+  background-color: white;
+}
 
+.color-6 {
+  background-color: red;
+}
+
+.color-7 {
+  background-color: pink;
+}
+
+.color-8 {
+  background-color: black;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; 
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
